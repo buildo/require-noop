@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/buildo/require-noop.svg)](https://travis-ci.org/buildo/require-noop)
+
 # require-noop
 Inhibits `require` on selected extensions.
 
