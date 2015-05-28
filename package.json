@@ -1,10 +1,17 @@
 {
   "name": "require-noop",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "transform required files with given extensions in noops",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/buildo/require-noop.git"
+  },
+  "bugs": {
+    "url": "https://github.com/buildo/require-noop/issues"
+  },
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "keywords": [
     "node",
@@ -13,5 +20,9 @@
     "noop"
   ],
   "author": "Giovanni Gonzaga <giovanni@buildo.io>",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "expect": "^1.6.0",
+    "mocha": "^2.2.5"
+  }
 }
