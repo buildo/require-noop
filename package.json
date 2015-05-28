@@ -1,0 +1,17 @@
+{
+  "name": "require-noop",
+  "version": "0.0.1",
+  "description": "transform required files with given extensions in noops",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "require",
+    "extension",
+    "noop"
+  ],
+  "author": "Giovanni Gonzaga <giovanni@buildo.io>",
+  "license": "ISC"
+}
